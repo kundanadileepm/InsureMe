@@ -20,4 +20,4 @@
     shell: docker rm -f insureme-app || true
   
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 kundanadileepm/insureme-app:latest
+    command: docker run -itd -p 8081:8081 kundanadileepm/insureme-app:latest
