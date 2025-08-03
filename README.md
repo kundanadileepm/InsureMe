@@ -9,4 +9,3 @@ This project front is based on simple HTML, CSS and Angular Js ad Backend is Jav
 =======
 
 In order to run the application use port 8081.
->>>>>>> c9cfc4d (Update README.md)
