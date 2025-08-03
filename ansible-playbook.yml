@@ -15,6 +15,9 @@
     command : sudo systemctl start docker
     become : yes
     become_user : root
-
+    
+  - name: Remove old container if it exists
+    shell: docker rm -f insureme-app || true
+  
   - name: Deploy Docker Container
     command: docker run -itd -p 8084:8081 kundanadileepm/insureme-app:latest
