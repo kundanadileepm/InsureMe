@@ -1,6 +1,6 @@
 Insurance Domain
 
-This project will help you to understand various concept related to Insurace domain.
+This project will help you to understand various concept related to Insurance domain.
 
 The pipeline flow:
 
